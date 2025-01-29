@@ -1,0 +1,38 @@
+.aboutbg{
+    background-color: chocolate;
+    height: 1340px;
+    width:98.82vw;
+}
+#pt1,#pt2{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width:98.8%;
+    height:410px;
+    border-radius: 30px;
+    
+}
+#pt1{
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('https://content.dogagingproject.org/wp-content/uploads/2020/11/helena-lopes-S3TPJCOIRoo-unsplash-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#pt2{
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('https://content.dogagingproject.org/wp-content/uploads/2020/11/helena-lopes-S3TPJCOIRoo-unsplash-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#sty{
+    text-align: center;
+    font-size: large;
+    font-size: x-large;
+    font-family: Verdana, Geneva;
+}
+#ti{
+  font-size: 50px;
+  text-align: center;
+}
+#hhi{
+  text-align: left;
+  margin-left: 100px;
+  font-size: 30px;
+}

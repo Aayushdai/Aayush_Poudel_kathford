@@ -1,0 +1,95 @@
+/* Common background styles for all */
+.background-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.first1f {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f1.png');
+}
+.second2f {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f2.png');
+}
+.third3f {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f3.png');
+}
+.fourth4f {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f4.png');
+}
+.fifth5f {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f5.png');
+}
+.sixth6f {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f6.png');
+}
+.seventh7f {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f7.png');
+}
+.eighth8f {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f8.png');
+}
+.ninth9f {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f9.png');
+}
+.tenthf {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./f10.png');
+}
+
+/* Apply background properties to all divs*/ 
+.first1f, .second2f, .third3f, .fourth4f, .fifth5f, .sixth6f, .seventh7f, .eighth8f, .ninth9f, .tenthf {
+  margin: 20px;
+  height: 370px;
+  width: 1255px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+}
+.head {
+  background-image: url('./bg.png');
+  margin: 5px;
+  color: rgb(37, 14, 14);
+  height: 200px;
+  width: 1280px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+#title {
+  font-size: 140px;
+  font-weight: 700;
+}
+.textlf, .textrf {
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+  margin-top: 27px;
+  background-color: transparent;
+}
+.textlf{
+  margin-left: 10px;
+  text-align: center;
+}
+.textrf {
+  margin-left: 900px;
+  text-align: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+description{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#g{
+  text-align:justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lol{
+  font-size: 60px;
+}
+body{
+  background-color: rgb(32, 31, 31);
+}

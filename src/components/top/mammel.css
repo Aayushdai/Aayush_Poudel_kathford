@@ -1,0 +1,91 @@
+/* Common background styles for all */
+.background-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.first1m {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./1m.png');
+}
+.second2m {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./2m.png');
+}
+.third3m {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./3m.png');
+}
+.fourth4m {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./4m.png');
+}
+.fifth5m {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./5m.png');
+}
+.sixth6m {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./6m.png');
+}
+.seventh7m {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./7m.png');
+}
+.eighth8m {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./9m.png');
+}
+.ninth9m {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./10m.png');
+}
+.tenthm {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('./11m.png');
+}
+
+/* Apply background properties to all divs*/ 
+.first1m, .second2m, .third3m, .fourth4m, .fifth5m, .sixth6m, .seventh7m, .eighth8m, .ninth9m, .tenthm {
+  margin: 20px;
+  height: 370px;
+  width: 1255px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+}
+.head {
+  margin: 5px;
+  background-color: aqua;
+  height: 200px;
+  width: 1280px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+#title {
+  font-size: 140px;
+  font-weight: 700;
+}
+.textlm, .textrm {
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+  margin-top: 27px;
+  background-color: transparent;
+}
+.textlm{
+  margin-left: 10px;
+  text-align: center;
+}
+.textrm {
+  margin-left: 900px;
+  text-align: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+description{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#g{
+  text-align:justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lol{
+  font-size: 60px;
+}
